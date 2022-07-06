@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 5rem;
+  padding: 0 10%;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  background-color: var(--deep-violet);
+}
+
+/* Logo Link */
+.logoLink:active,
+.logoLink:hover {
+  text-decoration-color: var(--white);
+}
+
+/* Logo */
+.logo {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+/* Lst */
+.list {
+  display: flex;
+  align-items: baseline;
+  list-style: none;
+}
+
+/* Listitem */
+.listItem {
+  margin: 0 var(--spacing2);
+}
+
+/* Link */
+.link {
+  text-decoration: none;
+  font-weight: bold;
+  color: var(--white);
+}
+
+.link:hover {
+  color: var(--bright-lavender);
+}
+
+/* Button */
+.button {
+  font: inherit;
+  font-weight: bold;
+  padding: var(--spacing) var(--spacing3);
+  border-radius: 6px;
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: var(--bright-lavender);
+  color: var(--deep-violet);
+}

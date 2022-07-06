@@ -1,0 +1,50 @@
+.container {
+  width: 95%;
+  max-width: 25rem;
+  margin: var(--spacing4) auto;
+}
+
+/* Control */
+.control {
+  margin-bottom: var(--spacing);
+}
+
+/* Label */
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing);
+  color: var(--jet);
+}
+
+/* Input */
+.input {
+  display: block;
+  font: inherit;
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid var(--deep-violet);
+  border-radius: 4px;
+  background-color: var(--magnolia);
+}
+
+/* Button Container */
+.buttonContainer {
+  margin-top: var(--spacing3);
+}
+
+/* Button */
+.button {
+  font: inherit;
+  padding: var(--spacing) var(--spacing3);
+  border-radius: 4px;
+  border: 1px solid var(--deep-violet);
+  background-color: var(--deep-violet);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--blue-violet);
+  background-color: var(--blue-violet);
+}

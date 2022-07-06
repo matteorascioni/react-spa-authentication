@@ -1,0 +1,79 @@
+.container {
+  text-align: center;
+  width: 95%;
+  max-width: 25rem;
+  padding: var(--spacing2);
+  margin: var(--spacing6) auto;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: var(--deep-violet);
+}
+
+/* Headline */
+.headline {
+  text-align: center;
+  color: var(--white);
+}
+
+/* Control */
+.control {
+  margin-bottom: var(--spacing);
+}
+
+/* Label */
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: var(--spacing);
+  color: var(--white);
+}
+
+/* Input */
+.input {
+  font: inherit;
+  text-align: left;
+  width: 100%;
+  padding: 0.25rem;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  background-color: var(--lavender);
+  color: var(--deep-violet);
+}
+
+/* ButtonsContainer */
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing3);
+}
+
+/* Button */
+.button {
+  font: inherit;
+  border-radius: 4px;
+  padding: var(--spacing) var(--spacing5);
+  border: 1px solid var(--amethyst);
+  background-color: var(--amethyst);
+  color: var(--white);
+  cursor: pointer;
+}
+
+.button:hover {
+  border-color: var(--dark-orchid);
+  background-color: var(--dark-orchid);
+}
+
+/* Toggle */
+.toggle {
+  padding: 0.15rem var(--spacing3);
+  margin-top: var(--spacing2);
+  border: none;
+  background-color: transparent;
+  color: var(--amethyst);
+}
+
+.toggle:hover {
+  background-color: transparent;
+  color: var(--african-violet);
+}

@@ -1,0 +1,57 @@
+:root {
+    /* Color variables */
+    --pure-white: #ffff;
+    --white: #fff;
+    --lavender: #f1e1fc;
+    --magnolia: #f7f0fa;
+    --bright-lavender: #c291e2;
+    --african-violet: #ae82cc;
+    --amethyst: #9f5ccc;
+    --dark-orchid: #873abb;
+    --deep-violet: #38015c;
+    --blue-violet: #540d83;
+    --jet: #353336;
+    --black: #000000;
+
+    /* Layout variables */
+    --spacing: 8px;
+    --spacing2: 16px;
+    --spacing3: 24px;
+    --spacing4: 32px;
+    --spacing5: 40px;
+    --spacing6: 48px;
+    --spacing7: 56px;
+    --spacing8: 64px;
+    --spacing9: 72px;
+    --spacing10: 80px;
+    --spacing11: 88px;
+    --spacing12: 96px;
+    --spacing13: 104px;
+    --spacing15: 120px;
+    --spacing16: 128px;
+    --spacing17: 136px;
+    --spacing20: 160px;
+    --spacing23: 184px;
+    --spacing25: 200px;
+    --max-page-width: 1680px;
+    --main-navigation-height: 5rem;
+
+    /* Media Queries breakpoints | Attention! CSS Variables won't work in media queries so this is for information foremost */
+    --tablet: 768px;
+    --desktop: 1280px;
+
+    /** Transformations */
+    --transition-default-timing: 200ms;
+    --transition-default-easing-out: ease-out;
+    --transition-default-easing-in: ease-in;
+
+    /** Viewport width and offset **/
+    --viewport-width: calc(100vw - var(--page-scrollbar-width));
+    --viewport-offset: 0px;
+}
+
+@media (min-width: 1680px) {
+    :root {
+        --viewport-offset: calc(0.5 * (var(--viewport-width) - var(--max-page-width)));
+    }
+}

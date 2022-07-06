@@ -1,0 +1,9 @@
+.container {
+  margin: var(--spacing6) auto;
+  text-align: center;
+}
+
+/* Headline */
+.headline {
+  font-size: 5rem;
+}
